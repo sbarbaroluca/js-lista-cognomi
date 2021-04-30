@@ -20,3 +20,8 @@ console.log("Lista in ordine alfabetico:", listaCognomi);
 document.getElementById("surname-sort").innerHTML = listaCognomi;
 
 //4 Scrivi la posizione "umana" della lista cognomi
+for (i = 1; i < listaCognomi.length; i++) {
+  console.log("Lista numerata:", i, listaCognomi[i]);
+  document.getElementById("surname-numb").innerHTML += i + " " + listaCognomi[i] + ", ";
+}
+
