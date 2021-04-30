@@ -14,4 +14,9 @@ listaCognomi.push(prompt("Scrivi il tuo cognome"));
 console.log("Lista dopo l'aggiunta:", listaCognomi);
 document.getElementById("surname-add").innerHTML = listaCognomi;
 
-//3 Stampa della lista dei cognomi in ordine alfabetico
+// 3 Stampa della lista dei cognomi in ordine alfabetico
+listaCognomi.sort()
+console.log("Lista in ordine alfabetico:", listaCognomi);
+document.getElementById("surname-sort").innerHTML = listaCognomi;
+
+//4 Scrivi la posizione "umana" della lista cognomi
